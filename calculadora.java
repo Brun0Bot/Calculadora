@@ -37,7 +37,7 @@ public class calculadora {
                     if (num2 != 0){
                         resultado = num1 / num2;
                     }
-                    System.out.println("Nenhum numero pode ser dividido por zero");
+                    System.out.println("Não é possível dividir por zero");
                     valido = false;
                     break;
                 default:
